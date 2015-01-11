@@ -1,0 +1,39 @@
+name:                brolang
+version:             0.0.0.0
+description:         The brolang programming language
+homepage:            https://github.com/thekafkaf/brolang
+license:             MIT
+license-file:        LICENSE
+author:              thekafkaf
+maintainer:          thekafkaf@gmail.com
+build-type:          Simple
+cabal-version:       >=1.10
+Bug-Reports:         https://github.com/thekafkaf/brolang/issues
+
+Source-Repository head
+    Type: git
+    Location: git@github.com:thekafkaf/brolang.git
+
+executable brolang
+  default-language:    Haskell2010
+  main-is:             Main.hs
+  build-depends:
+      base                 >= 4.6
+    , haskeline            >= 0.7.1.2
+    , llvm-general         == 3.4.4.*
+    , llvm-general-pure    == 3.4.4.*
+    , mtl                  >= 2.2
+    , parsec               >= 3.1
+    , transformers
+    , containers           >= 0.4
+  hs-source-dirs:      src
+
+library 
+  default-language:    Haskell2010
+  build-depends:       
+      base                 >= 4.6
+    , haskeline            >= 0.7.1.2
+    , llvm-general         == 3.4.4.*
+    , llvm-general-pure    == 3.4.4.*
+    , mtl
+    , transformers
