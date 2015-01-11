@@ -26,8 +26,10 @@ Currently it's just a glorified fork of chapter 7 from [Stephen Diehl's](https:/
 But in due time, the language will beacome a _robust_ and _full-featured_ _kickass(ing)_ tool, which in the right hands, can achieve greatness.
 
 #### TODO
+* Translate the entire existing syntax
 * Actually read the tutorial
 * Introduce more types
+* Docs
 * Create a dude friendly compiler
 * Transform the syntax to a more pythonic one(?)
 * Benchmarks
