@@ -12,7 +12,7 @@ Introducing brolang
 ---
 
 Finally you can speak to your computer directly.  
-For example, ask it to do some sweet fibonacci computation:
+For example, ask it to do some sweet fibronacci computation:
 ```
 dude check dat fib. it wants the (d)
   if (d < 3) i would totally
